@@ -3,4 +3,4 @@ services:
   web:
     image: theon7/notes-app:latest
     ports:
-      - "8080:80"
+      - "8000:8000"
