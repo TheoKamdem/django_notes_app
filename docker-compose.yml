@@ -1,6 +1,6 @@
-version : "3.3"
-services :
-  web :
-     image : theon7/django-notes-app:latest
-     ports :
-         - "8000:8000"
+version: '3'
+services:
+  web:
+    image: theon7/notes-app:latest
+    ports:
+      - "8080:80"
